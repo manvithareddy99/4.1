@@ -3,509 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manvitha Reddy Nomula | Premium AI & Data Science Portfolio</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Interactive B.Tech Computer Science (Data Science) Portfolio of Manvitha Reddy Nomula. ServiceNow Certified System Administrator (CSA) and Web Developer.">
-    <meta name="keywords" content="Manvitha Reddy Nomula, Data Science, Portfolio, ML, AI, ServiceNow CSA, Python, React, Flask, Node.js">
-    <meta name="author" content="Manvitha Reddy Nomula">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Manvitha Reddy Nomula | Premium Portfolio">
-    <meta property="og:description" content="Interactive B.Tech Computer Science (Data Science) Portfolio featuring particle simulations, 3D tilt interactions, and dynamic analytics visuals.">
-    <meta property="og:url" content="https://github.com/manvithareddy99">
-    
-    <!-- Google Fonts -->
+    <title>Nomula Manvitha Reddy · Empty but Live</title>
+    <meta name="description" content="Portfolio of Nomula Manvitha Reddy — Machine Learning & Search Intelligence. Empty but live starter milestone.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Custom Glowing Cursor -->
-    <div class="cursor-glow" id="cursor-glow"></div>
-    <div class="cursor-dot" id="cursor-dot"></div>
-
-    <!-- Particle Network Canvas Background -->
-    <canvas id="particle-canvas"></canvas>
-
-    <!-- Header / Navigation -->
-    <header class="header">
-        <div class="nav-container">
-            <a href="#" class="logo hover-interactive">
-                <span>M</span><span>R</span>
-            </a>
-            <nav class="nav-links">
-                <a href="#hero" class="active hover-interactive">Home</a>
-                <a href="#about" class="hover-interactive">About</a>
-                <a href="#skills" class="hover-interactive">Skills</a>
-                <a href="#projects" class="hover-interactive">Projects</a>
-                <a href="#certifications" class="hover-interactive">Certificates</a>
-                <a href="#contact" class="hover-interactive">Contact</a>
-            </nav>
-            <div class="mobile-toggle hover-interactive" id="mobile-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+    <main class="container">
+        <header class="header">
+            <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <span>Empty but Live · Milestone 4.1</span>
             </div>
-        </div>
-    </header>
+            <h1 class="title">Nomula Manvitha Reddy</h1>
+            <p class="subtitle">Machine Learning & Applied Search Intelligence</p>
+        </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero-section">
-            <div class="hero-content">
-                <div class="hero-badge reveal-up">
-                    <span class="pulse-indicator"></span> Available for Internships
-                </div>
-                <h1 class="reveal-up delay-1">Nomula Manvitha Reddy</h1>
-                
-                <!-- Typing Headline -->
-                <h2 class="reveal-up delay-2">
-                    <span class="static-txt">I build </span>
-                    <span class="gradient-text typewriter" id="typewriter-text"></span>
-                </h2>
-                
-                <p class="reveal-up delay-3">Computer Science undergraduate specializing in Data Science. ServiceNow Certified System Administrator (CSA) with hands-on project experience across web development, databases, and analytics. Comfortable building full-stack platforms using Python, React, Flask, and Node.js.</p>
-                
-                <div class="hero-buttons reveal-up delay-4">
-                    <a href="#projects" class="btn btn-primary hover-interactive">Explore Projects <i class="fas fa-arrow-right"></i></a>
-                    <a href="#contact" class="btn btn-secondary hover-interactive">Get in Touch</a>
-                </div>
-                
-                <div class="social-links reveal-up delay-5">
-                    <a href="https://github.com/manvithareddy99" target="_blank" class="hover-interactive" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/manvitha-reddy-nomula-0b9351313" class="hover-interactive" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="mailto:manvithareddynomula99@gmail.com" class="hover-interactive" aria-label="Email"><i class="far fa-envelope"></i></a>
-                    <a href="tel:7207472681" class="hover-interactive" aria-label="Phone"><i class="fas fa-phone"></i></a>
-                </div>
+        <section class="proof-card">
+            <div class="card-label">Core Proof Statement</div>
+            <p class="proof-text">
+                &ldquo;I build and evaluate machine learning models that work on messy, real-world data, and I am transparent about their performance limits.&rdquo;
+            </p>
+            <div class="target-note">
+                <strong>Audience:</strong> Engineering Leads & Hiring Managers seeking robust ML engineering.
             </div>
-            
-            <div class="hero-visual reveal-scale">
-                <!-- 3D Tilt Card -->
-                <div class="glass-avatar-card tilt-card hover-interactive">
-                    <div class="card-glow-reflection"></div>
-                    <div class="avatar-glow"></div>
-                    <div class="avatar-svg">
-                        <svg viewBox="0 0 100 100" class="abstract-svg">
-                            <defs>
-                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
-                                </linearGradient>
-                                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
-                                </linearGradient>
-                            </defs>
-                            <circle cx="50" cy="50" r="42" stroke="url(#grad1)" stroke-width="0.3" fill="none" class="rotating-circle" />
-                            <circle cx="50" cy="50" r="34" stroke="url(#grad2)" stroke-width="0.8" stroke-dasharray="8 6" fill="none" class="counter-rotating-circle" />
-                            <path d="M 50 15 L 68 35 L 50 58 L 32 35 Z" fill="url(#grad1)" opacity="0.15" />
-                            <path d="M 50 20 L 64 35 L 50 53 L 36 35 Z" fill="url(#grad1)" opacity="0.85" class="pulsing-diamond" />
-                            <circle cx="50" cy="35" r="3" fill="#f8fafc" class="floating-orb" />
-                            <circle cx="50" cy="50" r="4" fill="#f8fafc" />
-                            <!-- Floating Math/Binary Nodes -->
-                            <text x="12" y="28" fill="#06b6d4" font-size="4" font-family="monospace" opacity="0.5" class="floating-node-1">01</text>
-                            <text x="80" y="28" fill="#a855f7" font-size="4.5" font-family="monospace" opacity="0.7" class="floating-node-2">f(x)</text>
-                            <text x="14" y="82" fill="#a855f7" font-size="4.5" font-family="monospace" opacity="0.6" class="floating-node-3">&lt;/&gt;</text>
-                            <text x="78" y="82" fill="#06b6d4" font-size="4" font-family="monospace" opacity="0.5" class="floating-node-4">Σ</text>
-                        </svg>
-                    </div>
-                    <div class="metrics-overlay">
-                        <div class="metric-item">
-                            <span class="metric-val">8.4</span>
-                            <span class="metric-lbl">B.Tech CGPA</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-val">7+</span>
-                            <span class="metric-lbl">Certifications</span>
-                        </div>
-                    </div>
+        </section>
+
+        <section class="content-map">
+            <div class="section-heading">
+                <h2>Content Map · Build Week Blueprint</h2>
+                <span class="blueprint-tag">3-Page Architecture</span>
+            </div>
+            <div class="map-grid">
+                <div class="map-item">
+                    <span class="step-num">01</span>
+                    <h3>The Claim</h3>
+                    <p>Home landing page stating the ML philosophy, core stack, and focus on production data robustness.</p>
+                    <span class="status-tag">Ready to fill</span>
+                </div>
+                <div class="map-item">
+                    <span class="step-num">02</span>
+                    <h3>The Proof</h3>
+                    <p>Case Study deep-diving into messy real-world data pipelines, model iterations, and explicit failure-mode analysis.</p>
+                    <span class="status-tag">Ready to fill</span>
+                </div>
+                <div class="map-item">
+                    <span class="step-num">03</span>
+                    <h3>The Action</h3>
+                    <p>Frictionless contact channel for an engineering lead to schedule a technical screening call.</p>
+                    <span class="status-tag">Ready to fill</span>
                 </div>
             </div>
         </section>
 
-        <!-- About & Education Section -->
-        <section id="about" class="about-section section-padding">
-            <div class="section-header">
-                <span class="sub-title">Bio & Education</span>
-                <h2 class="title">My Academic Path</h2>
-            </div>
-            
-            <div class="about-grid">
-                <div class="about-bio reveal-left">
-                    <h3>Pioneering Data-Driven Systems</h3>
-                    <p>I am a computer science student specializing in <strong>Data Science</strong> at Vignan Institute of Technology and Science, Hyderabad.</p>
-                    <p>I believe that data is the ultimate foundation for intelligent software. By combining mathematical models, analytics processing, and beautiful interactive frontends, I design systems that solve practical challenges. I thrive in collaborative environments where analytical thinking and robust engineering meet.</p>
-                    
-                    <div class="profile-meta-details">
-                        <div class="meta-item hover-interactive">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <strong>Location:</strong>
-                                <span>Hyderabad, India</span>
-                            </div>
-                        </div>
-                        <div class="meta-item hover-interactive">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <strong>Email:</strong>
-                                <a href="mailto:manvithareddynomula99@gmail.com">manvithareddynomula99@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="meta-item hover-interactive">
-                            <i class="fas fa-phone-alt"></i>
-                            <div>
-                                <strong>Phone:</strong>
-                                <a href="tel:7207472681">+91 7207472681</a>
-                            </div>
-                        </div>
-                    </div>
+        <section class="stack-meta">
+            <div class="meta-row">
+                <div class="meta-col">
+                    <span class="meta-label">Chosen Stack</span>
+                    <span class="meta-val">HTML5 · Modern CSS3 · Vanilla JS</span>
                 </div>
-                
-                <div class="education-timeline-container reveal-right">
-                    <h3>Academic Timeline</h3>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2023 - 2027 (Expected)</div>
-                            <div class="timeline-content tilt-card hover-interactive">
-                                <div class="card-glow-reflection"></div>
-                                <h4>B.Tech in CSE (Data Science)</h4>
-                                <p class="institution">Vignan Institute of Technology and Science, Hyderabad</p>
-                                <div class="grade-badge">CGPA: 8.4</div>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2021 - 2023</div>
-                            <div class="timeline-content tilt-card hover-interactive">
-                                <div class="card-glow-reflection"></div>
-                                <h4>Intermediate (Class XII)</h4>
-                                <p class="institution">Narayana Junior College, Hyderabad</p>
-                                <div class="grade-badge">Score: 91.5%</div>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2020 - 2021</div>
-                            <div class="timeline-content tilt-card hover-interactive">
-                                <div class="card-glow-reflection"></div>
-                                <h4>Secondary School (Class X)</h4>
-                                <p class="institution">Dilsukhnagar Public School, Hyderabad</p>
-                                <div class="grade-badge">GPA: 10/10</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="meta-col">
+                    <span class="meta-label">Hosting & Deployment</span>
+                    <span class="meta-val">GitHub Pages (Continuous Deployment)</span>
+                </div>
+                <div class="meta-col">
+                    <span class="meta-label">Device Verification</span>
+                    <span class="meta-val">Mobile Responsive & Touch Optimized</span>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills-section section-padding">
-            <div class="section-header">
-                <span class="sub-title">Competencies</span>
-                <h2 class="title">My Technology stack</h2>
-            </div>
-            
-            <div class="skills-grid">
-                <!-- Skill Group 1: Programming & Data -->
-                <div class="skill-category tilt-card hover-interactive reveal-up">
-                    <div class="card-glow-reflection"></div>
-                    <div class="category-icon"><i class="fas fa-code"></i></div>
-                    <h3>Languages & Databases</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag hover-interactive"><i class="fab fa-python"></i> Python</span>
-                        <span class="skill-tag hover-interactive"><i class="fas fa-database"></i> SQL</span>
-                        <span class="skill-tag hover-interactive"><i class="fas fa-database"></i> MySQL</span>
-                        <span class="skill-tag hover-interactive"><i class="fas fa-database"></i> PostgreSQL</span>
-                        <span class="skill-tag hover-interactive">SQLAlchemy</span>
-                        <span class="skill-tag hover-interactive"><i class="fab fa-java"></i> Java</span>
-                        <span class="skill-tag hover-interactive"><i class="fas fa-chart-line"></i> R Language</span>
-                    </div>
-                </div>
-                
-                <!-- Skill Group 2: Web Technologies -->
-                <div class="skill-category tilt-card hover-interactive reveal-up delay-1">
-                    <div class="card-glow-reflection"></div>
-                    <div class="category-icon"><i class="fas fa-laptop-code"></i></div>
-                    <h3>Full-Stack & Web</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag hover-interactive"><i class="fab fa-react"></i> React</span>
-                        <span class="skill-tag hover-interactive"><i class="fab fa-node-js"></i> Node.js</span>
-                        <span class="skill-tag hover-interactive">Flask</span>
-                        <span class="skill-tag hover-interactive">RESTful APIs</span>
-                        <span class="skill-tag hover-interactive"><i class="fab fa-html5"></i> HTML5</span>
-                        <span class="skill-tag hover-interactive"><i class="fab fa-css3-alt"></i> CSS3</span>
-                        <span class="skill-tag hover-interactive"><i class="fab fa-js"></i> JavaScript</span>
-                        <span class="skill-tag hover-interactive"><i class="fab fa-bootstrap"></i> Bootstrap 5</span>
-                    </div>
-                </div>
-                
-                <!-- Skill Group 3: Data Science & Viz -->
-                <div class="skill-category tilt-card hover-interactive reveal-up delay-2">
-                    <div class="card-glow-reflection"></div>
-                    <div class="category-icon"><i class="fas fa-brain"></i></div>
-                    <h3>Data Science & Viz</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag hover-interactive">Machine Learning</span>
-                        <span class="skill-tag hover-interactive">Scikit-learn</span>
-                        <span class="skill-tag hover-interactive">Pandas</span>
-                        <span class="skill-tag hover-interactive">NumPy</span>
-                        <span class="skill-tag hover-interactive"><i class="fas fa-chart-bar"></i> Power BI</span>
-                        <span class="skill-tag hover-interactive">Chart.js</span>
-                    </div>
-                </div>
-                
-                <!-- Skill Group 4: Cloud & Tools -->
-                <div class="skill-category tilt-card hover-interactive reveal-up delay-3">
-                    <div class="card-glow-reflection"></div>
-                    <div class="category-icon"><i class="fas fa-tools"></i></div>
-                    <h3>Cloud & Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag hover-interactive"><i class="fab fa-aws"></i> AWS</span>
-                        <span class="skill-tag hover-interactive">Render</span>
-                        <span class="skill-tag hover-interactive"><i class="fab fa-git-alt"></i> Git & GitHub</span>
-                        <span class="skill-tag hover-interactive">VS Code</span>
-                        <span class="skill-tag hover-interactive">Postman</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="projects-section section-padding">
-            <div class="section-header">
-                <span class="sub-title">Portfolio Showcase</span>
-                <h2 class="title">Academic & GitHub Projects</h2>
-                
-                <div class="project-filters">
-                    <button class="filter-btn active hover-interactive" data-filter="all">All Projects</button>
-                    <button class="filter-btn hover-interactive" data-filter="data-science">Data Science & ML</button>
-                    <button class="filter-btn hover-interactive" data-filter="web-dev">Web Development</button>
-                </div>
-            </div>
-            
-            <div class="projects-grid">
-                <!-- Project 1: Academic Engagement Monitoring System -->
-                <div class="project-card tilt-card hover-interactive reveal-up" data-category="web-dev">
-                    <div class="card-glow-reflection"></div>
-                    <div class="project-image-fallback web-gradient">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Flask</span>
-                            <span>React</span>
-                            <span>MySQL</span>
-                            <span>Bootstrap 5</span>
-                            <span>Chart.js</span>
-                        </div>
-                        <h3>Academic Engagement Monitoring</h3>
-                        <p class="description">A web application to track student attendance and engagement metrics, automatically flagging at-risk students.</p>
-                        <ul class="project-points">
-                            <li>Built a Flask web application with a MySQL and SQLAlchemy backend and Chart.js dashboards.</li>
-                            <li>Designed responsive HTML5/CSS3/Bootstrap 5 pages with JavaScript-driven interactivity.</li>
-                            <li>Engineered APIs tested thoroughly with Postman to ensure backend reliability.</li>
-                        </ul>
-                        <div class="project-links">
-                            <a href="https://github.com/manvithareddy99/Academic-engagement" target="_blank" class="proj-link hover-interactive"><i class="fab fa-github"></i> View GitHub <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2: Airbnb Price Predictor -->
-                <div class="project-card tilt-card hover-interactive reveal-up delay-1" data-category="data-science">
-                    <div class="card-glow-reflection"></div>
-                    <div class="project-image-fallback ml-gradient">
-                        <i class="fas fa-home"></i>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tech">
-                            <span>R Language</span>
-                            <span>Shiny</span>
-                            <span>Random Forest</span>
-                        </div>
-                        <h3>Airbnb Price Predictor</h3>
-                        <p class="description">An interactive application that estimates Airbnb listing prices based on location and property variables.</p>
-                        <ul class="project-points">
-                            <li>Built a Shiny application predicting Airbnb prices using a Random Forest model.</li>
-                            <li>Implemented filters for room types, capacity, and reviews for interactive exploration.</li>
-                            <li>Performed exploratory analysis to align models with actual listing pricing structures.</li>
-                        </ul>
-                        <div class="project-links">
-                            <a href="https://github.com/manvithareddy99/AirBnb-Price-Detector" target="_blank" class="proj-link hover-interactive"><i class="fab fa-github"></i> View GitHub <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
-
-        <!-- Certifications Section -->
-        <section id="certifications" class="certifications-section section-padding">
-            <div class="section-header">
-                <span class="sub-title">Credentials</span>
-                <h2 class="title">My Certifications</h2>
-            </div>
-            
-            <div class="certifications-grid">
-                <!-- Cert 1 -->
-                <div class="cert-card tilt-card hover-interactive reveal-up">
-                    <div class="card-glow-reflection"></div>
-                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>ServiceNow Certified System Administrator (CSA)</h3>
-                    <p class="issuer">ServiceNow Credential</p>
-                    <a href="https://drive.google.com/file/d/18C10_Hd18XXj84uUiWh0Rohf0oLG5GXk/view?usp=drive_link" target="_blank" class="cert-link hover-interactive"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                </div>
-
-                <!-- Cert 2 -->
-                <div class="cert-card tilt-card hover-interactive reveal-up delay-1">
-                    <div class="card-glow-reflection"></div>
-                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>Frontend Development with HTML and CSS</h3>
-                    <p class="issuer">TASK (Telangana Academy for Skill and Knowledge) Certification Program</p>
-                    <a href="https://drive.google.com/file/d/1rSbmPTf3a5BYPLx7rgBl2yOQ0s4axOhZ/view?usp=drive_link" target="_blank" class="cert-link hover-interactive"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                </div>
-
-                <!-- Cert 3 -->
-                <div class="cert-card tilt-card hover-interactive reveal-up delay-2">
-                    <div class="card-glow-reflection"></div>
-                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>Programming in Java</h3>
-                    <p class="issuer">NPTEL — National Programme on Technology Enhanced Learning</p>
-                    <a href="https://drive.google.com/file/d/1gCrgAEMblNgNhFLWVknCUDpemTJgOkMs/view?usp=drive_link" target="_blank" class="cert-link hover-interactive"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                </div>
-
-                <!-- Cert 4 -->
-                <div class="cert-card tilt-card hover-interactive reveal-up">
-                    <div class="card-glow-reflection"></div>
-                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>Network Simulation using NS2</h3>
-                    <p class="issuer">TASK (Telangana Academy for Skill and Knowledge) Certification Program</p>
-                    <a href="https://drive.google.com/file/d/1WNpvwE3iXz8N0HZr_ut8MmSvEBSXbnaJ/view?usp=drive_link" target="_blank" class="cert-link hover-interactive"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                </div>
-
-                <!-- Cert 5 -->
-                <div class="cert-card tilt-card hover-interactive reveal-up delay-1">
-                    <div class="card-glow-reflection"></div>
-                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>Academic & Professional Development</h3>
-                    <p class="issuer">University & Academic Program Certification</p>
-                    <a href="https://drive.google.com/file/d/14Pg-k7lTKjJOk2PvW9y3E9ChUJLkwESy/view?usp=drive_link" target="_blank" class="cert-link hover-interactive"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                </div>
-
-                <!-- Cert 6 -->
-                <div class="cert-card tilt-card hover-interactive reveal-up delay-2">
-                    <div class="card-glow-reflection"></div>
-                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>Data Analytics & Databases Program</h3>
-                    <p class="issuer">Relational Database and SQL Credential</p>
-                    <a href="https://drive.google.com/file/d/1YvDqvija1dBPlIcXsSUCe7Xn9FD85a-C/view?usp=drive_link" target="_blank" class="cert-link hover-interactive"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                </div>
-
-                <!-- Cert 7 -->
-                <div class="cert-card tilt-card hover-interactive reveal-up">
-                    <div class="card-glow-reflection"></div>
-                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>Advanced Machine Learning Algorithms</h3>
-                    <p class="issuer">AI Engineering Program Certification</p>
-                    <a href="https://drive.google.com/file/d/1XCGA5fXvkvngEZJcsIvVTTcZIQaZMu2y/view?usp=drive_link" target="_blank" class="cert-link hover-interactive"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact-section section-padding">
-            <div class="section-header">
-                <span class="sub-title">Connect</span>
-                <h2 class="title">Let's build together</h2>
-            </div>
-            
-            <div class="contact-container">
-                <!-- Info Sidebar -->
-                <div class="contact-info reveal-left">
-                    <h3>Contact Information</h3>
-                    <p>Have an interesting project or internship opportunity? Drop me a line, and let's configure something amazing.</p>
-                    
-                    <div class="info-list">
-                        <div class="info-card hover-interactive">
-                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
-                            <div class="info-text">
-                                <span>Email</span>
-                                <a href="mailto:manvithareddynomula99@gmail.com">manvithareddynomula99@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="info-card hover-interactive">
-                            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
-                            <div class="info-text">
-                                <span>Call</span>
-                                <a href="tel:7207472681">+91 7207472681</a>
-                            </div>
-                        </div>
-
-                        <div class="info-card hover-interactive">
-                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
-                            <div class="info-text">
-                                <span>Based In</span>
-                                <span>Hyderabad, Telangana, India</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Contact Form -->
-                <div class="contact-form-container reveal-right">
-                    <form id="contact-form" class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" required class="hover-interactive" placeholder="First and last name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" required class="hover-interactive" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" required class="hover-interactive" placeholder="Project / Internship inquiry">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" rows="5" required class="hover-interactive" placeholder="Write details here..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-submit hover-interactive">
-                            <span class="btn-text">Send Message <i class="fas fa-paper-plane"></i></span>
-                            <span class="btn-spinner"><i class="fas fa-circle-notch fa-spin"></i></span>
-                        </button>
-                        <div id="form-feedback" class="form-feedback"></div>
-                    </form>
-                </div>
-            </div>
-        </section>
+        <footer class="footer">
+            <p>&copy; 2026 Nomula Manvitha Reddy · Built with FlyRank AI Internship Foundations</p>
+            <p><a href="https://github.com/manvithareddy99/4.1" target="_blank" rel="noopener">GitHub Repository: manvithareddy99/4.1</a></p>
+        </footer>
     </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <p>&copy; 2026 Nomula Manvitha Reddy. Fully Custom Designed.</p>
-            <div class="footer-links">
-                <a href="https://github.com/manvithareddy99" class="hover-interactive" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/manvitha-reddy-nomula-0b9351313" class="hover-interactive" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:manvithareddynomula99@gmail.com" class="hover-interactive"><i class="far fa-envelope"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Custom JS -->
-    <script src="script.js"></script>
 </body>
 </html>

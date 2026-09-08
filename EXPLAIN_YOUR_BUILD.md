@@ -1,10 +1,3 @@
-# Nomula Manvitha Reddy — Portfolio & Week 6 Build Explanation
-**FlyRank AI Internship · Week 6: Explain It Like You Built It**
-
-🌐 **Deliverable Document:** See [EXPLAIN_YOUR_BUILD.md](EXPLAIN_YOUR_BUILD.md) for the complete breakdown.
-
----
-
 # Week 6: Explain It Like You Built It
 **FlyRank AI Internship — Own What You Shipped**
 
@@ -142,4 +135,3 @@ That is exactly what this code does on a computer screen.
 ## 4. Key Takeaway
 
 Before this exercise, the custom cursor was "mystery code" that AI generated to make the site look cool. Now, I can explain every line, the mathematics behind the smooth glide, and the browser rendering lifecycle that keeps it at 60 frames per second. I am genuinely the human in the loop.
-
